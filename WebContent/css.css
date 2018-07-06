@@ -1,0 +1,46 @@
+.tabela {
+  font-family: "courier";
+  font-size: 14px;
+  border-collapse: none;
+  text-align: left;
+}
+
+.par {
+  background-color: #252525;
+  color: #00FF00;
+  /* border:1px #252525; */
+}
+
+.impar {
+  background-color: #000000;
+  color: #00FF00;
+}
+
+.painel {
+  background-color: #252525;
+  color: #FFFF00;
+  border: none;
+}
+
+.caixaDeTexto {
+  background-color: #252525;
+  padding-top: 5px;
+}
+
+.botao {
+  background-color: #FF0000;
+  color: #000000;
+  border: none;
+}
+
+/*
+   Media Query;
+   Projeto responsivo ao tamanho da janela do navegador.
+*/
+@media screen and (max-width: 700px) {
+  .painel x {
+    float: none;
+    width: 100%;
+    display: inline;
+  }
+}
